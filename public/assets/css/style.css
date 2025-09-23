@@ -8699,4 +8699,10 @@ button.close {
   white-space: nowrap;
 }
 
+.kpi-img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
