@@ -27,12 +27,12 @@
         <div class="row g-3">
             <div class="col-12">
                 <h4 class="fw-semibold">1. Buka aplikasi <b>Pehadir</b> dan pastikan berada di menu <b>Home</b>. Selanjutnya klik menu <b>More</b>.</h4>
-                <img class="kpi-img" src="{{ asset('assets/img/mobile/fiturKPI/kpi1.png') }}" alt="Fitur KPI">
+                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturKPI/kpi1.png') }}" alt="Fitur KPI">
             </div>
 
             <div class="col-12">
                 <h4 class="fw-semibold">2. Selanjutnya, cari dan pilih menu <b>KPI</b> pada tampilan <b>More Menu.</b></h4>
-                <img class="kpi-img" src="{{ asset('assets/img/mobile/fiturKPI/kpi2.png') }}" alt="Fitur KPI">
+                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturKPI/kpi2.png') }}" alt="Fitur KPI">
             </div>
 
             <div class="col-12">
@@ -42,10 +42,10 @@
 
                 <div class="row g-3">
                     <div class="col-md-6 col-12">
-                        <img class="kpi-img" src="{{ asset('assets/img/mobile/fiturKPI/kpi3.png') }}" alt="Fitur KPI">
+                        <img class="img-custom" src="{{ asset('assets/img/mobile/fiturKPI/kpi3.png') }}" alt="Fitur KPI">
                     </div>
                     <div class="col-md-6 col-12">
-                        <img class="kpi-img" src="{{ asset('assets/img/mobile/fiturKPI/kpi4.png') }}" alt="Fitur KPI">
+                        <img class="img-custom" src="{{ asset('assets/img/mobile/fiturKPI/kpi4.png') }}" alt="Fitur KPI">
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
 
             <div class="col-12">
                 <h4 class="fw-semibold">7. Langkah-langkah Cara Membaca Hasil KPI:</h4>
-                <img class="kpi-img mb-2" src="{{ asset('assets/img/mobile/fiturKPI/kpi5.png') }}" alt="Fitur KPI">
+                <img class="img-custom mb-2" src="{{ asset('assets/img/mobile/fiturKPI/kpi5.png') }}" alt="Fitur KPI">
                 <h4 class="fw-semibold">A. Lihat Total Score dan Kesimpulan Umum</h4>
                 <ul>
                     <li><i class="bi bi-dot"></i> <b>Total Score:</b> 310.00</li>
