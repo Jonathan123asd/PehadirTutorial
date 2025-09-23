@@ -56,4 +56,54 @@ Route::group(['prefix' => 'mobile'], function () {
     Route::get('/penggunaan/fitur/attendance-list', function () {
         return view('mobile.fiturAttendanceList');
     })->name('mobile.penggunaan.fitur.attendance.list');
+
+    // Cara Menggunakan fitur Cash Advance
+    Route::get('/penggunaan/fitur/cash-advance', function () {
+        return view('mobile.fiturCashAdvance');
+    })->name('mobile.penggunaan.fitur.cash.advance');
+
+    // Pengertian fitur Employees
+    Route::get('/penggunaan/fitur/employees', function () {
+        return view('mobile.fiturEmployees');
+    })->name('mobile.penggunaan.fitur.employees');
+
+    // Tutorial Masuk Aplikasi Pehadir
+    Route::get('/penggunaan/fitur/masuk-aplikasi', function () {
+        return view('mobile.fiturMasukAplikasi');
+    })->name('mobile.penggunaan.fitur.masuk.aplikasi');
+
+    // Penjelasan menu Inbox
+    Route::get('/penggunaan/fitur/inbox', function () {
+        return view('mobile.fiturInbox');
+    })->name('mobile.penggunaan.fitur.inbox');
+
+    // Tutorial Request Izin Leave(Cuti)
+    Route::get('/penggunaan/fitur/request-leave', function () {
+        return view('mobile.fiturRequestLeave');
+    })->name('mobile.penggunaan.fitur.request.leave');
+
+    // Tutorial Menggunakan fitur Tracking
+    Route::get('/penggunaan/fitur/tracking', function () {
+        return view('mobile.fiturTracking');
+    })->name('mobile.penggunaan.fitur.tracking');
+
+    // Tutorial Mereset Password Lupa Kata Sandi
+    Route::get('/penggunaan/fitur/reset/kata-sandi', function () {
+        return view('mobile.fiturResetKataSandi');
+    })->name('mobile.penggunaan.fitur.reset.kata.sandi');
+
+    // Tutorial Membuat format Company Location
+    Route::get('/penggunaan/fitur/company-location', function () {
+        return view('mobile.fiturCompanyLocation');
+    })->name('mobile.penggunaan.fitur.company.location');
+
+    // Tutorial Request Sakit
+    Route::get('/penggunaan/fitur/request-sakit', function () {
+        return view('mobile.fiturRequestSakit');
+    })->name('mobile.penggunaan.fitur.request.sakit');
+
+    // Penjelasan menu Polling
+    Route::get('/penggunaan/fitur/polling', function () {
+        return view('mobile.fiturPolling');
+    })->name('mobile.penggunaan.fitur.polling');
 });
