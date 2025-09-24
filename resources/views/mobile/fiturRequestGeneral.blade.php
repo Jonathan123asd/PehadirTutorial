@@ -19,12 +19,12 @@
         {{-- Page Content --}}
         <div class="row g-3">
             <div class="col-12">
-                <h4 class="fw-semibold">1. Login ke aplikasi <b>Pehadir.</b></h4>
+                <h4 class="fw-semibold">1. Login ke Aplikasi <b>Pehadir.</b></h4>
                 <ul>
                     <li><i class="bi bi-dot"></i> Masuk menggunakan akun Anda, <b>lalu pilih menu 'Request'</b> yang terdapat di beranda.</li>
                     <li><i class="bi bi-dot"></i> Setelah itu, <b>klik 'Request'</b> pada bagian beranda tersebut.</li>
                 </ul>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request1.png') }}" alt="Fitur KPI">
+                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request1.png') }}" alt="Fitur Request General">
             </div>
 
             <div class="col-12">
@@ -32,7 +32,7 @@
                 <ul>
                     <li><i class="bi bi-dot"></i> Setelah berada di halaman Request, <b>klik</b> tanda <b>plus (<i class="bi bi-plus"></i>)</b> yang terletak di bagian kanan bawah layar.</li>
                 </ul>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request2.png') }}" alt="Fitur KPI">
+                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request2.png') }}" alt="Fitur Request General">
             </div>
 
             <div class="col-12">
@@ -44,7 +44,7 @@
                     <li><i class="bi bi-dot"></i> <b>Reason</b> (Keterangan)</li>
                     <li><i class="bi bi-dot"></i> Setelah selesai, klik <b>Submit</b> untuk mengirimkan permintaan</li>
                 </ul>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request3.png') }}" alt="Fitur KPI">
+                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request3.png') }}" alt="Fitur Request General">
             </div>
 
             <div class="col-12">
@@ -52,7 +52,7 @@
                 <ul>
                     <li><i class="bi bi-dot"></i> Setelah mengirimkan permintaan, Anda dapat menunggu konfirmasi atau persetujuan dari pihak terkait. Pastikan untuk memeriksa notifikasi secara berkala agar tidak melewatkan informasi penting.</li>
                 </ul>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request4.png') }}" alt="Fitur KPI">
+                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturRequestGeneral/request4.png') }}" alt="Fitur Request General">
             </div>
         </div>
         {{-- /Page Content --}}
