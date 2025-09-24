@@ -3,12 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('pages.index');
+    return view('index');
 })->name('index');
 
-Route::get('/dashboard', function () {
-    return view('pages.dashboard.index');
-})->name('dashboard');
 
 Route::group(['prefix' => 'mobile'], function () {
     // Cara Lihat fitur KPI
