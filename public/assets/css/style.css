@@ -1906,8 +1906,9 @@ input[type=file].form-control {
 }
 
 .header {
-  background: linear-gradient(to right, #0d6efd 0%, #0d6efd 100%) !important;
-  border-bottom: 1px solid transparent;
+
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 100%) !important;
+ border-bottom: 1px solid transparent;
   height: 60px;
   z-index: 1002;
   position: fixed;
@@ -1968,8 +1969,9 @@ input[type=file].form-control {
     width: 21px;
   }
   .header #toggle_btn .bar-icon span {
-    background-color: #ffffff;
-    display: block;
+
+    background-color: #333 !important;
+   display: block;
     float: left;
     height: 2px;
     width: 21px;
@@ -2004,7 +2006,8 @@ input[type=file].form-control {
 }
 @media (max-width: 991px) {
   .header .mobile_btn {
-    color: #ffffff;
+
+    color: #333 !important;
     font-size: 24px;
     height: 60px;
     line-height: 60px;
@@ -8697,6 +8700,13 @@ button.close {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+
+.img-custom {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
