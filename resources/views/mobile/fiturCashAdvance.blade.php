@@ -72,7 +72,7 @@
                         alt="Fitur Cash Advance">
                     <li>
                         Contoh data:
-                        <ul class="d-flex flex-column gap-2 ms-4 mt-2">
+                        <ul class="d-flex flex-column gap-2 ms-4 mt-2" style="list-style: disc;">
                             <li><b>Name</b>: Jenis kasbon yang diajukan.</li>
                             <li><b>Status</b>: Pengajuan akan berubah menjadi "Approved" apabila permohonan kasbon telah disetujui
                                 oleh atasan. Jika status masih "Pending", artinya permohonan masih menunggu proses persetujuan.</li>
