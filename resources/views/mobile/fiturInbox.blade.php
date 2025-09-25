@@ -56,6 +56,7 @@
                             <li><b>Keterangan</b>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sed fugit unde?</li>
                             <li><b>Status</b>: Pending / Approved</li>
                             <li><b>List Aproval User</b>: Nama, Status, Reason</li>
+                            <li><b>Attachment</b>: File Pendukung</li>
                         </ul>
                     </li>
                 </ul>
