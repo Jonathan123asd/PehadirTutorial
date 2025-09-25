@@ -18,25 +18,27 @@
         </div>
         <!-- /Page Header -->
         {{-- Page Content --}}
-        <div class="row g-5">
+        <div class="row g-4">
             <div class="col-12">
-                <h4 class="fw-normal mb-4">1. Buka aplikasi <b>Pehadir</b> dan pastikan berada di menu <b>Home</b>.
-                    Selanjutnya
-                    klik menu <b>Employees</b>.</h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturEmployees/1.png') }}" alt="Fitur Cash Advance">
+                <h4 class="fw-semibold mb-4">1. Meliahat daftar employee / karyawan.</h4>
+                <ul class="d-flex flex-column gap-2 ms-4" style="list-style: disc;">
+                    <li>Buka aplikasi <b>Pehadir</b></li>
+                    <li>klik menu <b>Employees</b>.</li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturEmployees/1.png') }}" alt="Fitur Employee">
+                </ul>
             </div>
             <div class="col-12">
-                <h4 class="fw-normal">2. Menu memberikan gambaran struktur organisasi perusahaan, karena setiap karyawan ditampilkan lengkap dengan posisi/jabatan dan divisinya, seperti:<br><br>
-                    <ul class="d-flex flex-column gap-2 ms-4" style="list-style: disc;">
-                        <li>Digital Marketing</li>
-                        <li>Backend Programmer</li>
-                        <li>Programmer Front End</li>
-                        <li>Supervisor</li>
-                    </ul>
-                </h4>
+                <h4 class="fw-semibold mb-4">2. Menu memberikan gambaran struktur organisasi perusahaan, karena setiap karyawan
+                    ditampilkan lengkap dengan posisi/jabatan dan divisinya, seperti:</h4>
+                <ul class="d-flex flex-column gap-2 ms-4" style="list-style: disc;">
+                    <li>Digital Marketing</li>
+                    <li>Backend Programmer</li>
+                    <li>Programmer Front End</li>
+                    <li>Supervisor</li>
+                </ul>
             </div>
             <div class="col-12">
-                <h4 class="fw-normal">3. Melalui informasi ini, pengguna dapat mengetahui siapa saja yang berada dalam
+                <h4 class="fw-semibold">3. Melalui informasi ini, pengguna dapat mengetahui siapa saja yang berada dalam
                     satu divisi, serta posisi masing-masing dalam struktur organisasi. Ini membantu koordinasi dan
                     komunikasi antaranggota tim di dalam perusahaan.
                 </h4>

@@ -26,76 +26,67 @@
         {{-- Page Content --}}
         <div class="row g-5">
             <div class="col-12">
-                <h4 class="fw-normal mb-4">1. Buka aplikasi <b>Pehadir</b> dan pastikan berada di menu <b>Home</b>.
-                    Selanjutnya
-                    klik menu <b>More</b>.</h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/1.png') }}"
-                    alt="Fitur Cash Advance">
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">2. Selanjutnya, cari dan pilih menu <b>Cash Advance</b> pada tampilan <b>More
-                        Menu.</b></h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/2.png') }}"
-                    alt="Fitur Cash Advance">
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">3. Klik tombol (+) di pojok kanan bawah untuk membuat permintaan baru.</h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/3.png') }}"
-                    alt="Fitur Cash Advance">
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">4. Cash Advance Type</h4>
-                <ul>
-                    <li><i class="bi bi-dot"></i> Pilih jenis kasbon yang ingin diajukan (contoh: KASBON).</li>
+                <h4 class="fw-semibold mb-4">1. Membuka Menu <b>Cash Advance</b></h4>
+                <ul class="d-flex flex-column gap-2 ms-4" style="list-style: disc;">
+                    <li>Buka aplikasi <b>Pehadir</b></li>
+                    <li>klik menu <b>More</b>.</li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/1.png') }}"
+                        alt="Fitur Cash Advance">
+                    <li>Selanjutnya, cari dan pilih menu <b>Cash Advance</b> pada tampilan <b>More
+                            Menu.</b></li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/2.png') }}"
+                        alt="Fitur Cash Advance">
                 </ul>
             </div>
             <div class="col-12">
-                <h4 class="fw-normal mb-4">5. Amount</h4>
-                <ul>
-                    <li><i class="bi bi-dot"></i> Masukkan jumlah kasbon yang diajukan tanpa menggunakan tanda titik
-                        (contoh: 50000).</li>
-                    <li><i class="bi bi-dot"></i> Nominal akan otomatis ditampilkan dalam satuan Rupiah.</li>
-                </ul>
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">6. <b>Klik Submit,</b> setelah semua data diisi dengan benar, klik tombol Submit
-                    untuk mengajukan Kasbon. Pengajuan Anda akan diproses dan menunggu persetujuan dari atasan atau HR. Atau
-                    anda juga dapat mengklik tombol Draft untuk menyimpan pengajuan sebagai Draf, sehingga dapat diedit atau
-                    dikirim di kemudian hari.
-                </h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/4.png') }}"
-                    alt="Fitur Cash Advance">
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">7. Pilih <b>SUBMIT</b> untuk melanjutkan pengajuan atau <b>CANCEL</b> untuk
-                    membatalkan.</h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/5.png') }}"
-                    alt="Fitur Cash Advance">
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">8. Anda akan diarahkan otomatis ke halaman <b>Cash Advance</b>, Lalu klik <b></b>
-                    untuk menampilkan informasi lengkap pengajuan.</h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/6.png') }}"
-                    alt="Fitur Cash Advance">
-            </div>
-            <div class="col-12">
-                <h4 class="fw-normal mb-4">9.Anda akan diarahkan ke halaman Detail, yang menampilkan informasi lengkap
-                    pengajuan, yaitu:<br><br>
-                    <ul class="d-flex flex-column gap-2 ms-4" style="list-style: disc;">
-                        <li>Name: Jenis kasbon yang diajukan.</li>
-                        <li>Status: Pengajuan akan berubah menjadi "Approved" apabila permohonan kasbon telah disetujui
-                            oleh
-                            atasan. Jika status masih "Pending", artinya permohonan masih menunggu proses persetujuan.</li>
-                        <li>Amount: Jumlah nominal kasbon yang diajukan.</li>
-                        <li>Date: Tanggal pengajuan kasbon.</li>
+                <h4 class="fw-semibold mb-4">2. Membuat <b>Cash Advance</b></h4>
+                <ul class="d-flex flex-column gap-2 ms-4" style="list-style: disc;">
+                    <li>Klik tombol (+) di pojok kanan bawah untuk membuat permintaan baru.</li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/3.png') }}"
+                        alt="Fitur Cash Advance">
+                    <li>Pilih jenis kasbon yang ingin diajukan (contoh: KASBON).</li>
+                    <li>Masukkan jumlah kasbon yang diajukan tanpa menggunakan tanda titik
+                        (contoh: 50000). Nominal akan otomatis ditampilkan dalam satuan Rupiah.</li>
+                    <li><b>Klik Submit,</b> setelah semua data diisi dengan benar, klik tombol Submit
+                        untuk mengajukan Kasbon. Pengajuan Anda akan diproses dan menunggu persetujuan dari atasan atau HR.
+                        Atau
+                        anda juga dapat mengklik tombol Draft untuk menyimpan pengajuan sebagai Draf, sehingga dapat diedit
+                        atau
+                        dikirim di kemudian hari.</li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/4.png') }}"
+                        alt="Fitur Cash Advance">
+                    <li>Pilih <b>SUBMIT</b> untuk melanjutkan pengajuan atau <b>CANCEL</b> untuk
+                        membatalkan.</li>
+                        <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/5.png') }}"
+                        alt="Fitur Cash Advance">
+                    <li>Anda akan diarahkan otomatis ke halaman <b>Cash Advance</b></li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/6.png') }}"
+                        alt="Fitur Cash Advance">
                     </ul>
-                </h4>
-                <h4 class="mb-4 fw-normal">Sebelum</h4>
-                <img class="img-custom mb-4" src="{{ asset('assets/img/mobile/fiturCashAdvance/7-1.png') }}"
-                    alt="Fitur Cash Advance">
-                <h4 class="mb-4 fw-normal">Sesudah</h4>
-                <img class="img-custom" src="{{ asset('assets/img/mobile/fiturCashAdvance/7-2.png') }}"
-                    alt="Fitur Cash Advance">
+                </div>
+                <div class="col-12">
+                <h4 class="fw-semibold mb-4">3. Melihat Detail <b>Cash Advance</b></h4>
+                <ul class="d-flex flex-column gap-2 ms-4 mb-4" style="list-style: disc;">
+                    <li>Klik tombol <b>Kasbon</b> untuk melihat detail pengajuan kasbon.</li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/6.png') }}"
+                        alt="Fitur Cash Advance">
+                    <li>
+                        Contoh data:
+                        <ul class="d-flex flex-column gap-2 ms-4 mt-2">
+                            <li><b>Name</b>: Jenis kasbon yang diajukan.</li>
+                            <li><b>Status</b>: Pengajuan akan berubah menjadi "Approved" apabila permohonan kasbon telah disetujui
+                                oleh atasan. Jika status masih "Pending", artinya permohonan masih menunggu proses persetujuan.</li>
+                            <li><b>Amount</b>: Jumlah nominal kasbon yang diajukan.</li>
+                            <li><b>Date</b>: Tanggal pengajuan kasbon.</li>
+                        </ul>
+                    </li>
+                    <li><i>Sebelum disetujui</i></li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/7-1.png') }}"
+                        alt="Fitur Cash Advance">
+                    <li><i>Sesudah disetujui</i></li>
+                    <img class="img-custom my-1" src="{{ asset('assets/img/mobile/fiturCashAdvance/7-2.png') }}"
+                        alt="Fitur Cash Advance">
+                </ul>
             </div>
         </div>
         {{-- /Page Content --}}
