@@ -108,3 +108,150 @@ Route::group(['prefix' => 'mobile'], function () {
         return view('mobile.fiturPolling');
     })->name('mobile.penggunaan.fitur.polling');
 });
+
+Route::group(['prefix' => 'website'], function () {
+    // Cara Melihat Lokasi Absensi Karyawan di Attendance Maps
+    Route::get('/penggunaan/fitur/attendance-maps', function () {
+        return view('website.fiturAttendanceMaps');
+    })->name('website.penggunaan.fitur.attendance.maps');
+
+    // Cara membuat polling (website)
+    Route::get('/penggunaan/fitur/polling', function () {
+        return view('website.fiturPollingWebsite');
+    })->name('website.penggunaan.fitur.polling.website');
+
+    // Cara Mengatur Komponen Gaji dan Tunjangan Karyawan
+    Route::get('/penggunaan/fitur/komponen-gaji', function () {
+        return view('website.fiturKomponenGaji');
+    })->name('website.penggunaan.fitur.komponen.gaji');
+
+    // Cara Menggunakan Access Branch Pada Website Pehadir
+    Route::get('/penggunaan/fitur/access-branch', function () {
+        return view('website.fiturAccessBranch');
+    })->name('website.penggunaan.fitur.access.branch');
+
+    // Cara Menggunakan Department Pada Website Pehadir
+    Route::get('/penggunaan/fitur/department', function () {
+        return view('website.fiturDepartment');
+    })->name('website.penggunaan.fitur.department');
+
+    // Cara Menggunakan fitur payroll Pada Aplikasi Pehadir
+    Route::get('/penggunaan/fitur/payroll', function () {
+        return view('website.fiturPayroll');
+    })->name('website.penggunaan.fitur.payroll');
+
+    // Cara Menggunakan Fitur Attendance List (fitur import massive)
+    Route::get('/penggunaan/fitur/attendance-list', function () {
+        return view('website.fiturAttendanceList');
+    })->name('website.penggunaan.fitur.attendance.list');
+
+    // Cara Menggunakan Fitur Manage Branch Pada Aplikasi Pehadir
+    Route::get('/penggunaan/fitur/manage-branch', function () {
+        return view('website.fiturManageBranch');
+    })->name('website.penggunaan.fitur.manage.branch');
+
+    // Cara Menggunakan Fitur Manage Employee Pada Aplikasi Pehadir
+    Route::get('/penggunaan/fitur/manage-employee', function () {
+        return view('website.fiturManageEmployee');
+    })->name('website.penggunaan.fitur.manage.employee');
+
+    // Cara Menggunakan Leave Mengajukan Izin Cuti Pada Website Pehadir
+    Route::get('/penggunaan/fitur/leave', function () {
+        return view('website.fiturLeave');
+    })->name('website.penggunaan.fitur.leave');
+
+    // Cara Menggunakan Overtime Pada Website Pehadir
+    Route::get('/penggunaan/fitur/overtime', function () {
+        return view('website.fiturOvertime');
+    })->name('website.penggunaan.fitur.overtime');
+
+    // Cara Menggunakan PaySlip Pada Website Pehadir
+    Route::get('/penggunaan/fitur/payslip', function () {
+        return view('website.fiturPayslip');
+    })->name('website.penggunaan.fitur.payslip');
+
+    // Cara Menggunakan Reprimand Pada Website Pehadir
+    Route::get('/penggunaan/fitur/reprimand', function () {
+        return view('website.fiturReprimand');
+    })->name('website.penggunaan.fitur.reprimand');
+
+    // Cara Menggunakan Tracking Pada Website Pehadir
+    Route::get('/penggunaan/fitur/tracking', function () {
+        return view('website.fiturTracking');
+    })->name('website.penggunaan.fitur.tracking');
+
+    // Cara Penggunaan Menu Devices Pada Website Pehadir
+    Route::get('/penggunaan/fitur/devices', function () {
+        return view('website.fiturDevices');
+    })->name('website.penggunaan.fitur.devices');
+
+    // Cara Penggunaan Menu Flexible Shift Pada Website Pehadir
+    Route::get('/penggunaan/fitur/flexible-shift', function () {
+        return view('website.fiturFlexibleShift');
+    })->name('website.penggunaan.fitur.flexible.shift');
+
+    // Mengatur dan Mengakses Sistem Berdasarkan Cabang atau Lainnya
+    Route::get('/penggunaan/fitur/system-branch', function () {
+        return view('website.fiturSystemBranch');
+    })->name('website.penggunaan.fitur.system.branch');
+
+    // Overtime Manual Pada Website Pehadir
+    Route::get('/penggunaan/fitur/overtime-manual', function () {
+        return view('website.fiturOvertimeManual');
+    })->name('website.penggunaan.fitur.overtime.manual');
+
+    // Panduan Cara Mengajukan Cicilan (Loan) pada Website Pehadir
+    Route::get('/penggunaan/fitur/loan', function () {
+        return view('website.fiturLoan');
+    })->name('website.penggunaan.fitur.loan');
+
+    // Panduan Cara Mengajukan Dana Talangan (Cash Advance) pada Website Pehadir
+    Route::get('/penggunaan/fitur/cash-advance', function () {
+        return view('website.fiturCashAdvance');
+    })->name('website.penggunaan.fitur.cash.advance');
+
+    // Panduan Menambahkan Deduction Other pada Website Pehadir
+    Route::get('/penggunaan/fitur/deduction-other', function () {
+        return view('website.fiturDeductionOther');
+    })->name('website.penggunaan.fitur.deduction.other');
+
+    // Tutorial Input Lowongan Kerja di Sistem Recruitment Pada Website Pehadir
+    Route::get('/penggunaan/fitur/input-lowongan', function () {
+        return view('website.fiturInputLowongan');
+    })->name('website.penggunaan.fitur.input.lowongan');
+
+    // Tutorial Izin (Request) Pada Website Pehadir
+    Route::get('/penggunaan/fitur/request', function () {
+        return view('website.fiturRequest');
+    })->name('website.penggunaan.fitur.request');
+
+    // Tutorial Manage Announcement
+    Route::get('/penggunaan/fitur/manage-announcement', function () {
+        return view('website.fiturManageAnnouncement');
+    })->name('website.penggunaan.fitur.manage.announcement');
+
+    // Tutorial Menggunakan Assets Management di Website Pehadir
+    Route::get('/penggunaan/fitur/assets-management', function () {
+        return view('website.fiturAssetsManagement');
+    })->name('website.penggunaan.fitur.assets.management');
+
+    // Tutorial Menggunakan Event di Website Pehadir
+    Route::get('/penggunaan/fitur/event', function () {
+        return view('website.fiturEvent');
+    })->name('website.penggunaan.fitur.event');
+
+    // Tutorial Menggunakan Location Exclusions (+ Add Exclusion) di Website Pehadir
+    Route::get('/penggunaan/fitur/location-exclusions', function () {
+        return view('website.fiturLocationExclusions');
+    })->name('website.penggunaan.fitur.location.exclusions');
+
+    // Tutorial Pengelolaan Tunjangan Karyawan Pada Website Pehadir
+    Route::get('/penggunaan/fitur/tunjangan-karyawan', function () {
+        return view('website.fiturTunjanganKaryawan');
+    })->name('website.penggunaan.fitur.tunjangan.karyawan');
+
+    // Tutorial Penggunaan Fitur Run Payroll Pada Website Pehadir
+    Route::get('/penggunaan/fitur/run-payroll', function () {
+        return view('website.fiturRunPayroll');
+    })->name('website.penggunaan.fitur.run.payroll');
+});

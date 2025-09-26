@@ -30,6 +30,42 @@
                             <li><a href="{{ route('mobile.penggunaan.fitur.polling') }}"><i class="la la-poll me-0 pe-1 fs-5"></i> Penjelasan Menu Polling</a></li>
                         </ul>
                     </li>
+
+                    <!-- Website -->
+                    <li class="submenu">
+                        <a href="#"><i class="la la-desktop me-0 pe-1 fs-5"></i> <span>Pehadir Website</span> <span class="menu-arrow"></span></a>
+                        <ul style="display: none;">
+                            <li><a href="{{ route('website.penggunaan.fitur.attendance.maps') }}"><i class="la la-map-marked-alt me-0 pe-1 fs-5"></i> Attendance Maps</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.polling.website') }}"><i class="la la-poll me-0 pe-1 fs-5"></i> Polling</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.komponen.gaji') }}"><i class="la la-money-check-alt me-0 pe-1 fs-5"></i> Komponen Gaji</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.access.branch') }}"><i class="la la-network-wired me-0 pe-1 fs-5"></i> Access Branch</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.department') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Department</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.payroll') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Payroll</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.attendance.list') }}"><i class="la la-list-alt me-0 pe-1 fs-5"></i> Attendance List</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.manage.branch') }}"><i class="la la-code-branch me-0 pe-1 fs-5"></i> Manage Branch</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.manage.employee') }}"><i class="la la-users me-0 pe-1 fs-5"></i> Manage Employee</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.leave') }}"><i class="la la-plane-departure me-0 pe-1 fs-5"></i> Leave</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Overtime</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.payslip') }}"><i class="la la-file-invoice me-0 pe-1 fs-5"></i> Payslip</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.reprimand') }}"><i class="la la-exclamation-circle me-0 pe-1 fs-5"></i> Reprimand</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.tracking') }}"><i class="la la-map-marker-alt me-0 pe-1 fs-5"></i> Tracking</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.devices') }}"><i class="la la-tablet-alt me-0 pe-1 fs-5"></i> Devices</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.flexible.shift') }}"><i class="la la-sync-alt me-0 pe-1 fs-5"></i> Flexible Shift</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.system.branch') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> System Branch</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.overtime.manual') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Manual</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.loan') }}"><i class="la la-hand-holding-usd me-0 pe-1 fs-5"></i> Loan</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.cash.advance') }}"><i class="la la-money-bill-wave me-0 pe-1 fs-5"></i> Cash Advance</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.deduction.other') }}"><i class="la la-minus-circle me-0 pe-1 fs-5"></i> Deduction Other</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.input.lowongan') }}"><i class="la la-briefcase me-0 pe-1 fs-5"></i> Input Lowongan</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.request') }}"><i class="la la-file-signature me-0 pe-1 fs-5"></i> Request</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.manage.announcement') }}"><i class="la la-bullhorn me-0 pe-1 fs-5"></i> Manage Announcement</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.assets.management') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Assets Management</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.event') }}"><i class="la la-calendar me-0 pe-1 fs-5"></i> Event</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.location.exclusions') }}"><i class="la la-map-pin me-0 pe-1 fs-5"></i> Location Exclusions</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <ul class="sidebar-vertical">
@@ -57,6 +93,42 @@
                         <li><a href="{{ route('mobile.penggunaan.fitur.company.location') }}"><i class="la la-building me-0 pe-1 fs-5"></i> Tutorial Company Location</a></li>
                         <li><a href="{{ route('mobile.penggunaan.fitur.request.sakit') }}"><i class="la la-hospital me-0 pe-1 fs-5"></i> Tutorial Request Sakit</a></li>
                         <li><a href="{{ route('mobile.penggunaan.fitur.polling') }}"><i class="la la-poll me-0 pe-1 fs-5"></i> Penjelasan Menu Polling</a></li>
+                    </ul>
+                </li>
+
+                <!-- Website -->
+                <li class="submenu">
+                    <a href="#"><i class="la la-desktop me-0 pe-1 fs-5"></i> <span>Pehadir Website</span> <span class="menu-arrow"></span></a>
+                    <ul style="display: none;">
+                        <li><a href="{{ route('website.penggunaan.fitur.attendance.maps') }}"><i class="la la-map-marked-alt me-0 pe-1 fs-5"></i> Attendance Maps</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.polling.website') }}"><i class="la la-poll me-0 pe-1 fs-5"></i> Polling</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.komponen.gaji') }}"><i class="la la-money-check-alt me-0 pe-1 fs-5"></i> Komponen Gaji</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.access.branch') }}"><i class="la la-network-wired me-0 pe-1 fs-5"></i> Access Branch</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.department') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Department</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.payroll') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Payroll</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.attendance.list') }}"><i class="la la-list-alt me-0 pe-1 fs-5"></i> Attendance List</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.manage.branch') }}"><i class="la la-code-branch me-0 pe-1 fs-5"></i> Manage Branch</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.manage.employee') }}"><i class="la la-users me-0 pe-1 fs-5"></i> Manage Employee</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.leave') }}"><i class="la la-plane-departure me-0 pe-1 fs-5"></i> Leave</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Overtime</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.payslip') }}"><i class="la la-file-invoice me-0 pe-1 fs-5"></i> Payslip</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.reprimand') }}"><i class="la la-exclamation-circle me-0 pe-1 fs-5"></i> Reprimand</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.tracking') }}"><i class="la la-map-marker-alt me-0 pe-1 fs-5"></i> Tracking</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.devices') }}"><i class="la la-tablet-alt me-0 pe-1 fs-5"></i> Devices</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.flexible.shift') }}"><i class="la la-sync-alt me-0 pe-1 fs-5"></i> Flexible Shift</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.system.branch') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> System Branch</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.overtime.manual') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Manual</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.loan') }}"><i class="la la-hand-holding-usd me-0 pe-1 fs-5"></i> Loan</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.cash.advance') }}"><i class="la la-money-bill-wave me-0 pe-1 fs-5"></i> Cash Advance</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.deduction.other') }}"><i class="la la-minus-circle me-0 pe-1 fs-5"></i> Deduction Other</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.input.lowongan') }}"><i class="la la-briefcase me-0 pe-1 fs-5"></i> Input Lowongan</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.request') }}"><i class="la la-file-signature me-0 pe-1 fs-5"></i> Request</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.manage.announcement') }}"><i class="la la-bullhorn me-0 pe-1 fs-5"></i> Manage Announcement</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.assets.management') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Assets Management</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.event') }}"><i class="la la-calendar me-0 pe-1 fs-5"></i> Event</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.location.exclusions') }}"><i class="la la-map-pin me-0 pe-1 fs-5"></i> Location Exclusions</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
                     </ul>
                 </li>
             </ul>
