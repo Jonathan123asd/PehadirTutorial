@@ -8709,4 +8709,9 @@ button.close {
     height: auto;
 }
 
+.img-custom-desktop {
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+}
 /*# sourceMappingURL=style.css.map */
