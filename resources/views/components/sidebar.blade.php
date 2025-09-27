@@ -44,7 +44,8 @@
                             <li><a href="{{ route('website.penggunaan.fitur.attendance.list') }}"><i class="la la-list-alt me-0 pe-1 fs-5"></i> Attendance List</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.manage.branch') }}"><i class="la la-code-branch me-0 pe-1 fs-5"></i> Manage Branch</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.manage.employee') }}"><i class="la la-users me-0 pe-1 fs-5"></i> Manage Employee</a></li>
-                            <li><a href="{{ route('website.penggunaan.fitur.leave') }}"><i class="la la-plane-departure me-0 pe-1 fs-5"></i> Leave</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.manage.leave') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Manage Leave</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.leave.izin') }}"><i class="la la-plane-departure me-0 pe-1 fs-5"></i> Leave Izin Cuti</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Overtime</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.payslip') }}"><i class="la la-file-invoice me-0 pe-1 fs-5"></i> Payslip</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.reprimand') }}"><i class="la la-exclamation-circle me-0 pe-1 fs-5"></i> Reprimand</a></li>
@@ -109,7 +110,8 @@
                         <li><a href="{{ route('website.penggunaan.fitur.attendance.list') }}"><i class="la la-list-alt me-0 pe-1 fs-5"></i> Attendance List</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.manage.branch') }}"><i class="la la-code-branch me-0 pe-1 fs-5"></i> Manage Branch</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.manage.employee') }}"><i class="la la-users me-0 pe-1 fs-5"></i> Manage Employee</a></li>
-                        <li><a href="{{ route('website.penggunaan.fitur.leave') }}"><i class="la la-plane-departure me-0 pe-1 fs-5"></i> Leave</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.manage.leave') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Manage Leave</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.leave.izin') }}"><i class="la la-plane-departure me-0 pe-1 fs-5"></i> Leave Izin Cuti</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Overtime</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.payslip') }}"><i class="la la-file-invoice me-0 pe-1 fs-5"></i> Payslip</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.reprimand') }}"><i class="la la-exclamation-circle me-0 pe-1 fs-5"></i> Reprimand</a></li>

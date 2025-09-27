@@ -155,10 +155,15 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturManageEmployee');
     })->name('website.penggunaan.fitur.manage.employee');
 
+    // Cara Menggunakan Fitur Manage Leave Pada Website Pehadir
+    Route::get('/penggunaan/fitur/manage-leave', function () {
+        return view('website.fiturManageLeave');
+    })->name('website.penggunaan.fitur.manage.leave');
+
     // Cara Menggunakan Leave Mengajukan Izin Cuti Pada Website Pehadir
-    Route::get('/penggunaan/fitur/leave', function () {
-        return view('website.fiturLeave');
-    })->name('website.penggunaan.fitur.leave');
+    Route::get('/penggunaan/fitur/leave-izin', function () {
+        return view('website.fiturLeaveIzin');
+    })->name('website.penggunaan.fitur.leave.izin');
 
     // Cara Menggunakan Overtime Pada Website Pehadir
     Route::get('/penggunaan/fitur/overtime', function () {
