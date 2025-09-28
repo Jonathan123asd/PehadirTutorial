@@ -77,7 +77,7 @@
 
             <div class="col-12">
                 <h4 class="fw-semibold">6. Gambar menampilkan departemen baru <b>‘MARKETING’</b> dengan kode <b>MKT</b> yang berhasil ditambahkan dan berstatus <b>Active.</b></h4>
-                <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturDepartment/6.png') }}" alt="Fitur Department">
+                <img class="img-custom-desktop mb-4" src="{{ asset('assets/img/website/fiturDepartment/6.png') }}" alt="Fitur Department">
                 <ul>
                     <li>Fungsi <i class="bi bi-file-earmark-text"></i> <b>Department</b> pada sistem <em>Pehadir</em> adalah untuk mengelola data departemen dalam perusahaan. Melalui menu ini, admin dapat menambahkan, mengubah, menonaktifkan, maupun menghapus departemen sesuai kebutuhan organisasi. Selain itu, tersedia juga fitur <b>Clone Department</b> yang memungkinkan pengguna menyalin struktur departemen dari cabang lain sehingga mempercepat proses input data tanpa harus mengisi ulang secara manual. Dengan adanya menu Department, pengelolaan struktur organisasi menjadi lebih teratur, efisien, dan konsisten di seluruh cabang perusahaan.</li>
                 </ul>
@@ -101,7 +101,7 @@
                 <ul>
                     <li><i class="bi bi-dot"></i> Muncul notifikasi <b>Department(s) successfully cloned!</b> lalu klik <b>OK.</b></li>
                 </ul>
-                <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturDepartment/8.png') }}" alt="Fitur Department">
+                <img class="img-custom-desktop mb-4" src="{{ asset('assets/img/website/fiturDepartment/8.png') }}" alt="Fitur Department">
                 <ul>
                     <li>Fitur <b>Import Department</b> berguna untuk <b>memasukkan data banyak departemen sekaligus</b> dalam satu kali unggahan. Hal ini sangat membantu perusahaan dengan banyak cabang atau struktur organisasi yang besar, sehingga tidak perlu menambahkan departemen satu per satu secara manual.</li>
                 </ul>
