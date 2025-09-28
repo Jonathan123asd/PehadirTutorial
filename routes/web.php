@@ -196,9 +196,9 @@ Route::group(['prefix' => 'website'], function () {
     })->name('website.penggunaan.fitur.flexible.shift');
 
     // Mengatur dan Mengakses Sistem Berdasarkan Cabang atau Lainnya
-    Route::get('/penggunaan/fitur/system-branch', function () {
-        return view('website.fiturSystemBranch');
-    })->name('website.penggunaan.fitur.system.branch');
+    Route::get('/penggunaan/fitur/access-mobile', function () {
+        return view('website.fiturAccessMobile');
+    })->name('website.penggunaan.fitur.access.mobile');
 
     // Overtime Manual Pada Website Pehadir
     Route::get('/penggunaan/fitur/overtime-manual', function () {

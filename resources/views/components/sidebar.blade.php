@@ -52,7 +52,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.tracking') }}"><i class="la la-map-marker-alt me-0 pe-1 fs-5"></i> Tracking</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.devices') }}"><i class="la la-tablet-alt me-0 pe-1 fs-5"></i> Devices</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.flexible.shift') }}"><i class="la la-sync-alt me-0 pe-1 fs-5"></i> Flexible Shift</a></li>
-                            <li><a href="{{ route('website.penggunaan.fitur.system.branch') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> System Branch</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.access.mobile') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> Access Mobile</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.overtime.manual') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Manual</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.loan') }}"><i class="la la-hand-holding-usd me-0 pe-1 fs-5"></i> Loan</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.cash.advance') }}"><i class="la la-money-bill-wave me-0 pe-1 fs-5"></i> Cash Advance</a></li>
@@ -118,7 +118,7 @@
                         <li><a href="{{ route('website.penggunaan.fitur.tracking') }}"><i class="la la-map-marker-alt me-0 pe-1 fs-5"></i> Tracking</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.devices') }}"><i class="la la-tablet-alt me-0 pe-1 fs-5"></i> Devices</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.flexible.shift') }}"><i class="la la-sync-alt me-0 pe-1 fs-5"></i> Flexible Shift</a></li>
-                        <li><a href="{{ route('website.penggunaan.fitur.system.branch') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> System Branch</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.access.mobile') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> Access Mobile</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.overtime.manual') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Manual</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.loan') }}"><i class="la la-hand-holding-usd me-0 pe-1 fs-5"></i> Loan</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.cash.advance') }}"><i class="la la-money-bill-wave me-0 pe-1 fs-5"></i> Cash Advance</a></li>
