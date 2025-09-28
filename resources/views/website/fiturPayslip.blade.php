@@ -36,7 +36,7 @@
             <div class="col-12">
                 <h4 class="fw-semibold">3. Buka menu <b>Payroll.</b></h4>
                 <ul>
-                    <li><i class="bi bi-dot"></i> Buka menu <b>Payroll</b> di sisi kiri layer, Pilih submenu <b>Pay Slip.</b></li>
+                    <li><i class="bi bi-dot"></i> Buka menu <b>Payroll</b> di sisi kiri layar, Pilih submenu <b>Pay Slip.</b></li>
                     <li><i class="bi bi-dot"></i> Isi kolom <b>Start Date</b> dan <b>End Date</b> sesuai dengan periode slip gaji yang ingin ditampilkan.</li>
                     <li><i class="bi bi-dot"></i> Pilih cabang perusahaan yang ingin ditampilkan (jika tersedia).</li>
                     <li><i class="bi bi-dot"></i> Klik tombol <b>Search</b> untuk menampilkan data slip gaji karyawan.</li>
