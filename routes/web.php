@@ -276,9 +276,9 @@ Route::group(['prefix' => 'website'], function () {
     })->name('website.penggunaan.fitur.penalty.rules');
 
     // Tutorial Pencatatan Kehadiran Karyawan dengan Timesheet pada Website Pehadir
-    Route::get('/penggunaan/fitur/timesheet', function () {
-        return view('website.fiturTimesheet');
-    })->name('website.penggunaan.fitur.timesheet');
+    Route::get('/penggunaan/fitur/shift-schedule', function () {
+        return view('website.fiturShiftSchedule');
+    })->name('website.penggunaan.fitur.shift.schedule');
 
     // Tutorial Pengelolaan Tunjangan Karyawan Pada Website Pehadir
     Route::get('/penggunaan/fitur/tunjangan-karyawan', function () {

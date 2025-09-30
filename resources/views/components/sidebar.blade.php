@@ -68,7 +68,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.manage.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Manage Overtime</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.position.grade.mapping') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> Position Grade Mapping</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.penalty.rules') }}"><i class="la la-balance-scale me-0 pe-1 fs-5"></i> Penalty Rules</a></li>
-                            <li><a href="{{ route('website.penggunaan.fitur.timesheet') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Timesheet</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.shift.schedule') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Shift Schedule</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
                         </ul>
@@ -140,7 +140,7 @@
                         <li><a href="{{ route('website.penggunaan.fitur.manage.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Manage Overtime</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.position.grade.mapping') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> Position Grade Mapping</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.penalty.rules') }}"><i class="la la-balance-scale me-0 pe-1 fs-5"></i> Penalty Rules</a></li>
-                        <li><a href="{{ route('website.penggunaan.fitur.timesheet') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Timesheet</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.shift.schedule') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Shift Schedule</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
                     </ul>
