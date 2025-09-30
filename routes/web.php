@@ -235,6 +235,11 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturManageAnnouncement');
     })->name('website.penggunaan.fitur.manage.announcement');
 
+    // Tutorial Mengatur Posisi atau Jabatan Karyawan
+    Route::get('/penggunaan/fitur/manage-position', function () {
+        return view('website.fiturManagePosition');
+    })->name('website.penggunaan.fitur.manage.position');
+
     // Tutorial Menggunakan Assets Management di Website Pehadir
     Route::get('/penggunaan/fitur/assets-management', function () {
         return view('website.fiturAssetsManagement');
