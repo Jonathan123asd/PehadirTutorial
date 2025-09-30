@@ -255,6 +255,31 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturLocationExclusions');
     })->name('website.penggunaan.fitur.location.exclusions');
 
+    // Tutorial Menggunakan Menu Evaluation Grade pada Website Pehadir
+    Route::get('/penggunaan/fitur/evaluation-grade', function () {
+        return view('website.fiturEvaluationGrade');
+    })->name('website.penggunaan.fitur.evaluation.grade');
+
+    // Tutorial Menggunakan Menu Manage Overtime pada Website Pehadir
+    Route::get('/penggunaan/fitur/manage-overtime', function () {
+        return view('website.fiturManageOvertime');
+    })->name('website.penggunaan.fitur.manage.overtime');
+
+    // Tutorial Menggunakan Menu Position Grade Mapping pada Website Pehadir
+    Route::get('/penggunaan/fitur/position-grade-mapping', function () {
+        return view('website.fiturPositionGradeMapping');
+    })->name('website.penggunaan.fitur.position.grade.mapping');
+
+    // Tutorial Penalty Rules pada Website Pehadir
+    Route::get('/penggunaan/fitur/penalty-rules', function () {
+        return view('website.fiturPenaltyRules');
+    })->name('website.penggunaan.fitur.penalty.rules');
+
+    // Tutorial Pencatatan Kehadiran Karyawan dengan Timesheet pada Website Pehadir
+    Route::get('/penggunaan/fitur/timesheet', function () {
+        return view('website.fiturTimesheet');
+    })->name('website.penggunaan.fitur.timesheet');
+
     // Tutorial Pengelolaan Tunjangan Karyawan Pada Website Pehadir
     Route::get('/penggunaan/fitur/tunjangan-karyawan', function () {
         return view('website.fiturTunjanganKaryawan');

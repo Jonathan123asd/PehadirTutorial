@@ -64,6 +64,11 @@
                             <li><a href="{{ route('website.penggunaan.fitur.assets.management') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Assets Management</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.event') }}"><i class="la la-calendar me-0 pe-1 fs-5"></i> Event</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.location.exclusions') }}"><i class="la la-map-pin me-0 pe-1 fs-5"></i> Location Exclusions</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.evaluation.grade') }}"><i class="la la-graduation-cap me-0 pe-1 fs-5"></i> Evaluation Grade</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.manage.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Manage Overtime</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.position.grade.mapping') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> Position Grade Mapping</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.penalty.rules') }}"><i class="la la-balance-scale me-0 pe-1 fs-5"></i> Penalty Rules</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.timesheet') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Timesheet</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
                         </ul>
@@ -131,6 +136,11 @@
                         <li><a href="{{ route('website.penggunaan.fitur.assets.management') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Assets Management</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.event') }}"><i class="la la-calendar me-0 pe-1 fs-5"></i> Event</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.location.exclusions') }}"><i class="la la-map-pin me-0 pe-1 fs-5"></i> Location Exclusions</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.evaluation.grade') }}"><i class="la la-graduation-cap me-0 pe-1 fs-5"></i> Evaluation Grade</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.manage.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Manage Overtime</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.position.grade.mapping') }}"><i class="la la-project-diagram me-0 pe-1 fs-5"></i> Position Grade Mapping</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.penalty.rules') }}"><i class="la la-balance-scale me-0 pe-1 fs-5"></i> Penalty Rules</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.timesheet') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Timesheet</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
                     </ul>
