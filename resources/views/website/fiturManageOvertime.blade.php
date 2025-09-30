@@ -5,7 +5,7 @@
         <div class="page-header">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="page-title">Tutorial Menggunakan Menu Evalution Melalui Website Pehadir</h3>
+                    <h3 class="page-title">Tutorial Menggunakan Menu Manage Overtime Melalui Website Pehadir</h3>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item active">
                             Menu <b>Overtime</b> pada Website Pehadir digunakan untuk mengelola pengaturan lembur karyawan secara fleksibel dan otomatis.

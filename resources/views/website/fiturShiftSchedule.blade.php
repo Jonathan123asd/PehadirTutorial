@@ -31,7 +31,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Setelah itu klik menu <b>Shift > Shift Schedule</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/1.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">2. Buat Shift Schedule</h4>
@@ -39,7 +39,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Klik +<b>Shift Schedule</b> untuk membuat shift Schedule baru.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/2.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
                 <ul class="mb-3">
                     <li class="mb-2">Isi data yang ada pada Set Schedule.</li>
                     <li class="mb-2"><i class="bi bi-dot"></i> Branch: Pilih Branch Anda yang telah di tentukkan oleh perusahaan. (Contoh
@@ -51,12 +51,12 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Shift Type: Pilih jam kerja yang telah di tentukan.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/3.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
                 <ul class="mb-3">
                     <li class="mb-2"><i class="bi bi-dot"></i> Klik Submit untuk menyimpan data yang telah di masukkan </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/4.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">3. Hasil Akhir</h4>
@@ -65,7 +65,7 @@
                         Schedule.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/5.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
                 <ul class="mb-3">
                     <li class="mb-2">Note</li>
                     <li class="mb-2"><i class="bi bi-dot"></i> Jangan lupa lakukan Branch, Start Date, End Date yang sesuai dengan yang
@@ -87,7 +87,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Setelah itu klik menu <b>Shift > Shift Schedule</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/6.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">2. Buat Shift Schedule</h4>
@@ -96,9 +96,9 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Selanjutnya Klik tombol <b>Download</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/7.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/8.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
                 <ul class="mb-3">
                     <li class="mb-2">Isi data yang ada pada Import</li>
                     <li class="mb-2"><i class="bi bi-dot"></i> No: Nomor/Angka sesuai kebutuhan.</li>
@@ -110,7 +110,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Branch Code: Kode identitas unik untuk setiap cabang perusahaan.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/9.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">3. Menyimpan Data</h4>
@@ -120,7 +120,7 @@
                         Excel untuk menyimpan data.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/10.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">4. Mengupload File</h4>
@@ -129,7 +129,7 @@
                             file</b> yang telah di buat</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/11.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">5. Import</h4>
@@ -138,7 +138,7 @@
                         <b>Import</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/12.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">6 Hasil Akhir</h4>
@@ -147,7 +147,7 @@
                         pada <b>Schedule Type</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturShiftSchedule/13.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Shift Schedule">
                 <ul class="mb-3">
                     <li class="mb-2">Note</li>
                     <li class="mb-2"><i class="bi bi-dot"></i> Employee id = bisa di dapat di menu karyawan</li>

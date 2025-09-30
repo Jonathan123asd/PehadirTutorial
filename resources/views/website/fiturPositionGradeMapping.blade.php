@@ -32,7 +32,7 @@
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPositionGradeMapping/1.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Position Grade Mapping">
                 <ul>
                     <li class="mb-2"><i class="bi bi-dot"></i> Klik tombol + Position Grade (berwarna oranye) di pojok kanan atas.
                     </li>
@@ -42,25 +42,25 @@
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPositionGradeMapping/2.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Position Grade Mapping">
                 <ul>
                     <li class="mb-2"><i class="bi bi-dot"></i> Pada kolom Level, pilih angka level (contoh: 6A_6B).
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPositionGradeMapping/3.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Position Grade Mapping">
                 <ul>
                     <li class="mb-2"><i class="bi bi-dot"></i> Pada kolom Position Name, pilih nama posisi yang sesuai.
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPositionGradeMapping/4.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Position Grade Mapping">
                 <ul>
                     <li class="mb-2"><i class="bi bi-dot"></i> Klik tombol Submit untuk menyimpan data.
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPositionGradeMapping/5.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Position Grade Mapping">
                 <ul>
                     <li class="mb-2"><i class="bi bi-dot"></i> Jika data Position Grade Mapping berhasil disimpan, sistem akan
                         menampilkan notifikasi pop-up dengan pesan "Data saved successfully". Klik tombol OK untuk menutup
@@ -68,7 +68,7 @@
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPositionGradeMapping/6.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Position Grade Mapping">
             </div>
         </div>
         <div class="row g-3">

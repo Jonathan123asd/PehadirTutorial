@@ -31,7 +31,7 @@
                         Rules</b> yang terdapat pada bagian <b>Master Data</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPenaltyRules/1.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Penalty Rules">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">2. Buat Penalty Rules</h4>
@@ -39,7 +39,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Klik <b>+Penalty</b> untuk membuat Penalty Rules baru.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPenaltyRules/2.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Penalty Rules">
                 <ul class="mb-3">
                     <li class="mb-2">Isi data yang ada pada <b>+Penalty</b>.</li>
                     <li class="mb-2"><i class="bi bi-dot"></i> Branch: Pilih Branch yang telah di tentukkan oleh perusahaan.
@@ -52,12 +52,12 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Description: Keterangan (Opsional).</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPenaltyRules/3.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Penalty Rules">
                 <ul class="mb-3">
                     <li class="mb-2"><i class="bi bi-dot"></i> Klik Submit untuk menyimpan data yang telah di masukkan.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturPenaltyRules/4.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Penalty Rules">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">3. Hasil Akhir</h4>
@@ -65,7 +65,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i> Setelah melakukan Submit maka data akan tersimpan di <b>menu utama Penalty Rules</b>.</li>
                 </ul>
                 <img class="img-custom-desktop" src="{{ asset('assets/img/website/fiturPenaltyRules/5.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Penalty Rules">
             </div>
         </div>
         {{-- /Page Content --}}

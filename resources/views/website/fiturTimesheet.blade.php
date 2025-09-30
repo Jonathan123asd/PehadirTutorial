@@ -28,7 +28,7 @@
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/1.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Timesheet">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">2. Masuk ke Menu Report</h4>
@@ -38,7 +38,7 @@
                     </li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/2.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Timesheet">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">3. Masuk ke menu Timesheet Attendance</h4>
@@ -52,7 +52,7 @@
                         yang telah dipilih.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/3.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Timesheet">
                 <ul class="mb-3">
                     <li class="mb-2">Tabel Kehadiran: Menampilkan hasil pencarian data kehadiran karyawan berdasarkan filter.</li>
                     <li class="mb-2"><i class="bi bi-dot"></i> No: Nomor urut data.</li>
@@ -66,14 +66,14 @@
                         kebutuhan</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/4.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Timesheet">
                 <ul class="mb-3">
                     <li class="mb-2"><i class="bi bi-dot"></i> Setelah Anda menekan tombol Export pada halaman laporan Timesheet
                         Attendance, file Excel dengan nama Timesheet_attendance_20250929.xlsx akan secara otomatis terunduh
                         ke perangkat Anda.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/5.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Timesheet">
             </div>
             <div class="col-12">
                 <h4 class="fw-semibold">4. Hasil Unduhan Laporan Timesheet Attendance</h4>
@@ -90,7 +90,7 @@
                     <li class="mb-2"><i class="bi bi-dot"></i>Gunakan rekap ini untuk kebutuhan penggajian, evaluasi kehadiran, atau pelaporan HR.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/6.png') }}"
-                    alt="Fitur Payslip">
+                    alt="Fitur Timesheet">
             </div>
         </div>
         {{-- /Page Content --}}
