@@ -144,7 +144,7 @@
                 <h4 class="fw-semibold">6 Hasil Akhir</h4>
                 <ul class="mb-2">
                     <li><i class="bi bi-dot"></i> Setelah melakukan Submit maka data akan tersimpan di menu utama yang ada
-                        pada Schedule Type.</li>
+                        pada <b>Schedule Type</b>.</li>
                 </ul>
                 <img class="img-custom-desktop mb-2" src="{{ asset('assets/img/website/fiturTimesheet/13.png') }}"
                     alt="Fitur Payslip">
