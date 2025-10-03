@@ -301,4 +301,8 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/penggunaan/fitur/report-overtime', function () {
         return view('website.fiturReportOvertime');
     })->name('website.penggunaan.fitur.report.overtime');
+
+    Route::get('/penggunaan/fitur/menggunakan-users', function () {
+        return view('website.fiturMenggunakanUsers');
+    })->name('website.penggunaan.fitur.menggunakan.users');
 });
