@@ -72,6 +72,8 @@
                             <li><a href="{{ route('website.penggunaan.fitur.timesheet') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Timesheet</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.salary.detail') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Detail</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Report Overtime</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -145,6 +147,8 @@
                         <li><a href="{{ route('website.penggunaan.fitur.timesheet') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Timesheet</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.tunjangan.karyawan') }}"><i class="la la-gift me-0 pe-1 fs-5"></i> Tunjangan Karyawan</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.salary.detail') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Detail</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Report Overtime</a></li>
                     </ul>
                 </li>
             </ul>

@@ -293,4 +293,12 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/penggunaan/fitur/run-payroll', function () {
         return view('website.fiturRunPayroll');
     })->name('website.penggunaan.fitur.run.payroll');
+
+    Route::get('/penggunaan/fitur/salary-detail', function () {
+        return view('website.fiturSalaryDetail');
+    })->name('website.penggunaan.fitur.salary.detail');
+
+    Route::get('/penggunaan/fitur/report-overtime', function () {
+        return view('website.fiturReportOvertime');
+    })->name('website.penggunaan.fitur.report.overtime');
 });
