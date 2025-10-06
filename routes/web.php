@@ -313,4 +313,8 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/report-loan', function () {
         return view('website.fiturReportLoan');
     })->name('website.penggunaan.fitur.report.loan');
+
+    Route::get('/pengunaan/fitur/auto-clock-out', function () {
+        return view('website.fiturAutoClockOut');
+    })->name('website.penggunaan.fitur.auto.clock.out');
 });
