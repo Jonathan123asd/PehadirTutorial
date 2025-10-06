@@ -74,9 +74,12 @@
                             <li><a href="{{ route('website.penggunaan.fitur.run.payroll') }}"><i class="la la-cogs me-0 pe-1 fs-5"></i> Run Payroll</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.salary.detail') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Detail</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Report Overtime</a></li>
-                             <li><a href="{{ route('website.penggunaan.fitur.menggunakan.users') }}"><i class="la la-user-shield me-0 pe-1 fs-5"></i> Cara Menggunakan Users</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.menggunakan.users') }}"><i class="la la-user-shield me-0 pe-1 fs-5"></i> Cara Menggunakan Users</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.menu.roles') }}"><i class="la la-user-lock me-0 pe-1 fs-5"></i> Cara Menggunakan Menu Roles</a></li>
-                                                    <li><a href="{{ route('website.penggunaan.fitur.report.loan') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Loan</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.loan') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Loan</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.auto.clock.out') }}"><i class="la la-clock me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Auto Clock-out</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance/a></li>
                         </ul>
                     </li>
                 </ul>
@@ -155,8 +158,9 @@
                         <li><a href="{{ route('website.penggunaan.fitur.menggunakan.users') }}"><i class="la la-user-shield me-0 pe-1 fs-5"></i> Cara Menggunakan Users</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.menu.roles') }}"><i class="la la-user-lock me-0 pe-1 fs-5"></i> Cara Menggunakan Menu Roles</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.report.loan') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Loan</a></li>
-
-
+                        <li><a href="{{ route('website.penggunaan.fitur.auto.clock.out') }}"><i class="la la-clock me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Auto Clock-out</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance/a></li>
                     </ul>
                 </li>
             </ul>

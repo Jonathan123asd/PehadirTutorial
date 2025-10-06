@@ -321,4 +321,8 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/reimbursement', function () {
         return view('website.fiturReimbursement');
     })->name('website.penggunaan.fitur.reimbursement');
+
+    Route::get('/pengunaan/fitur/report-attendance', function () {
+        return view('website.fiturReportAttendance');
+    })->name('website.penggunaan.fitur.report.attendance');
 });
