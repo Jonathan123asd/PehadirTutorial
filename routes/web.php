@@ -317,4 +317,8 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/auto-clock-out', function () {
         return view('website.fiturAutoClockOut');
     })->name('website.penggunaan.fitur.auto.clock.out');
+
+    Route::get('/pengunaan/fitur/reimbursement', function () {
+        return view('website.fiturReimbursement');
+    })->name('website.penggunaan.fitur.reimbursement');
 });
