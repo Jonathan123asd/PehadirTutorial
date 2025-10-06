@@ -309,5 +309,8 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/menu-roles', function () {
         return view('website.fiturMenuRoles');
     })->name('website.penggunaan.fitur.menu.roles');
+
+    Route::get('/pengunaan/fitur/report-loan', function () {
+        return view('website.fiturReportLoan');
+    })->name('website.penggunaan.fitur.report.loan');
 });
-    
