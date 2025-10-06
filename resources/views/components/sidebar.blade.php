@@ -79,7 +79,8 @@
                             <li><a href="{{ route('website.penggunaan.fitur.report.loan') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Loan</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.auto.clock.out') }}"><i class="la la-clock me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Auto Clock-out</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
-                            <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance/a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -160,7 +161,8 @@
                         <li><a href="{{ route('website.penggunaan.fitur.report.loan') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Loan</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.auto.clock.out') }}"><i class="la la-clock me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Auto Clock-out</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
-                        <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance/a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
                     </ul>
                 </li>
             </ul>
