@@ -240,7 +240,7 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturManagePosition');
     })->name('website.penggunaan.fitur.manage.position');
 
-    // Tutorial Menggunakan Assets Management di Website Pehadir
+    // Tutorial Menggunakan ment di Website Pehadir
     Route::get('/penggunaan/fitur/assets-management', function () {
         return view('website.fiturAssetsManagement');
     })->name('website.penggunaan.fitur.assets.management');
@@ -305,4 +305,9 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/penggunaan/fitur/menggunakan-users', function () {
         return view('website.fiturMenggunakanUsers');
     })->name('website.penggunaan.fitur.menggunakan.users');
+
+    Route::get('/pengunaan/fitur/menu-roles', function () {
+        return view('website.fiturMenuRoles');
+    })->name('website.penggunaan.fitur.menu.roles');
 });
+    

@@ -75,6 +75,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.salary.detail') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Detail</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Report Overtime</a></li>
                              <li><a href="{{ route('website.penggunaan.fitur.menggunakan.users') }}"><i class="la la-user-shield me-0 pe-1 fs-5"></i> Cara Menggunakan Users</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.menu.roles') }}"><i class="la la-user-lock me-0 pe-1 fs-5"></i> Cara Menggunakan Menu Roles</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -137,7 +138,7 @@
                         <li><a href="{{ route('website.penggunaan.fitur.request') }}"><i class="la la-file-signature me-0 pe-1 fs-5"></i> Request</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.manage.announcement') }}"><i class="la la-bullhorn me-0 pe-1 fs-5"></i> Manage Announcement</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.manage.position') }}"><i class="la la-user-tie me-0 pe-1 fs-5"></i> Manage Position</a></li>
-                        <li><a href="{{ route('website.penggunaan.fitur.assets.management') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Assets Management</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.assets.management') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i>ment</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.event') }}"><i class="la la-calendar me-0 pe-1 fs-5"></i> Event</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.location.exclusions') }}"><i class="la la-map-pin me-0 pe-1 fs-5"></i> Location Exclusions</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.evaluation.grade') }}"><i class="la la-graduation-cap me-0 pe-1 fs-5"></i> Evaluation Grade</a></li>
@@ -151,6 +152,8 @@
                         <li><a href="{{ route('website.penggunaan.fitur.salary.detail') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Detail</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.report.overtime') }}"><i class="la la-business-time me-0 pe-1 fs-5"></i> Report Overtime</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.menggunakan.users') }}"><i class="la la-user-shield me-0 pe-1 fs-5"></i> Cara Menggunakan Users</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.menu.roles') }}"><i class="la la-user-lock me-0 pe-1 fs-5"></i> Cara Menggunakan Menu Roles</a></li>
+
 
                     </ul>
                 </li>
