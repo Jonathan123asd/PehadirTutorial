@@ -30,7 +30,6 @@
                             <li><a href="{{ route('mobile.penggunaan.fitur.polling') }}"><i class="la la-poll me-0 pe-1 fs-5"></i> Penjelasan Menu Polling</a></li>
                         </ul>
                     </li>
-
                     <!-- Website -->
                     <li class="submenu">
                         <a href="#"><i class="la la-desktop me-0 pe-1 fs-5"></i> <span>Pehadir Website</span> <span class="menu-arrow"></span></a>
@@ -81,6 +80,17 @@
                             <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
+                        </ul>
+                    </li>
+                    <!-- Ai -->
+                    <li class="submenu">
+                        <a href="#"><i class="la la-robot me-0 pe-1 fs-5"></i> <span>Pehadir AI</span> <span class="menu-arrow"></span></a>
+                        <ul style="displ`ay: none;">
+                            <li><a href="{{ route('ai.pengunaan.fitur.absen.masuk') }}"><i class="la la-sign-in-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Absen Masuk</a></li>
+                            <li><a href="{{ route('ai.pengunaan.fitur.check.my.face') }}"><i class="la la-user-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Check My Face</a></li>
+                            <li><a href="{{ route('ai.pengunaan.fitur.face.registration') }}"><i class="la la-id-card me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Face Registration</a></li>
+                            <li><a href="{{ route('ai.pengunaan.fitur.menu.absen.keluar') }}"><i class="la la-sign-out-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Absen Keluar</a></li>
+                            <li><a href="{{ route('ai.pengunaan.fitur.menu.logout') }}"><i class="la la-power-off me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Logout</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -163,6 +173,18 @@
                         <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
+                    </ul>
+                </li>
+
+                <!-- Ai -->
+                <li class="submenu">
+                    <a href="#"><i class="la la-robot me-0 pe-1 fs-5"></i> <span>Pehadir AI</span> <span class="menu-arrow"></span></a>
+                    <ul style="display: none;">
+                        <li><a href="{{ route('ai.pengunaan.fitur.absen.masuk') }}"><i class="la la-sign-in-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Absen Masuk</a></li>
+                        <li><a href="{{ route('ai.pengunaan.fitur.check.my.face') }}"><i class="la la-user-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Check My Face</a></li>
+                        <li><a href="{{ route('ai.pengunaan.fitur.face.registration') }}"><i class="la la-id-card me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Face Registration</a></li>
+                        <li><a href="{{ route('ai.pengunaan.fitur.menu.absen.keluar') }}"><i class="la la-sign-out-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Absen Keluar</a></li>
+                        <li><a href="{{ route('ai.pengunaan.fitur.menu.logout') }}"><i class="la la-power-off me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Logout</a></li>
                     </ul>
                 </li>
             </ul>

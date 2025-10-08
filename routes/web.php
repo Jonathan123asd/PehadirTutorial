@@ -334,3 +334,25 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturScheduleType');
     })->name('website.penggunaan.fitur.schedule.type');
 });
+
+Route::group(['prefix' => 'ai'] , function () {
+    Route::get('/pengunaan/fitur/absen-masuk', function () {
+        return view('ai.fiturAbsenMasuk');
+    })->name('ai.pengunaan.fitur.absen.masuk');
+
+    Route::get('/pengunaan/fitur/menu-absen-keluar', function () {
+        return view('ai.fiturMenuAbsenKeluar');
+    })->name('ai.pengunaan.fitur.menu.absen.keluar');
+
+    Route::get('/pengunaan/fitur/menu-logout', function () {
+        return view('ai.fiturMenuLogout');
+    })->name('ai.pengunaan.fitur.menu.logout');
+
+    Route::get('/pengunaan/fitur/face-registration', function () {
+        return view('ai.fiturFaceRegistration');
+    })->name('ai.pengunaan.fitur.face.registration');
+
+    Route::get('/pengunaan/fitur/check-my-face', function () {
+        return view('ai.fiturCheckMyFace');
+    })->name('ai.pengunaan.fitur.check.my.face');
+});
