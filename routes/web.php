@@ -349,6 +349,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/organization', function () {
         return view('website.fiturOrganization');
     })->name('website.penggunaan.fitur.organization');
+
+    Route::get('/pengunaan/fitur/salary-compare', function () {
+        return view('website.fiturSalaryCompare');
+    })->name('website.penggunaan.fitur.salary.compare');
 });
 
 Route::group(['prefix' => 'ai'] , function () {

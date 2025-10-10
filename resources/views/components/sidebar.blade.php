@@ -84,6 +84,7 @@
                              <li><a href="{{ route('website.penggunaan.fitur.dairy.allowance') }}"><i class="la la-utensils me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Dairy Allowance</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.kpi.description') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur KPI Description</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.organization') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Organization</a></li>
+                               <li><a href="{{ route('website.penggunaan.fitur.salary.compare') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Compare</a></li>
                         </ul>
                     </li>
                     <!-- Ai -->
@@ -179,8 +180,9 @@
                         <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
                          <li><a href="{{ route('website.penggunaan.fitur.overtime.exclusion') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Exclusion</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.dairy.allowance') }}"><i class="la la-utensils me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Dairy Allowance</a></li>
-                                                    <li><a href="{{ route('website.penggunaan.fitur.kpi.description') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur KPI Description</a></li>
-                            <li><a href="{{ route('website.penggunaan.fitur.organization') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Organization</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.kpi.description') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur KPI Description</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.organization') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Organization</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.salary.compare') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Compare</a></li>
                     </ul>
                 </li>
 
