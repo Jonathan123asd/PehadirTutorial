@@ -80,6 +80,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
+                             <li><a href="{{ route('website.penggunaan.fitur.overtime.exclusion') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Exclusion</a></li>
                         </ul>
                     </li>
                     <!-- Ai -->
@@ -173,6 +174,7 @@
                         <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
+                         <li><a href="{{ route('website.penggunaan.fitur.overtime.exclusion') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Exclusion</a></li>
                     </ul>
                 </li>
 

@@ -333,6 +333,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/schedule-type', function () {
         return view('website.fiturScheduleType');
     })->name('website.penggunaan.fitur.schedule.type');
+
+    Route::get('/pengunaan/fitur/overtime-exclusion', function () {
+        return view('website.fiturOvertimeExclusion');
+    })->name('website.penggunaan.fitur.overtime.exclusion');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
