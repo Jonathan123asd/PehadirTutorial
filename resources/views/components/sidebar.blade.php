@@ -85,6 +85,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.kpi.description') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur KPI Description</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.organization') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Organization</a></li>
                                <li><a href="{{ route('website.penggunaan.fitur.salary.compare') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Compare</a></li>
+                               <li><a href="{{ route('website.penggunaan.fitur.export.payroll.bank') }}"><i class="la la-file-export me-0 pe-1 fs-5"></i> Export Payroll Bank</a></li>
                         </ul>
                     </li>
                     <!-- Ai -->
@@ -183,6 +184,7 @@
                         <li><a href="{{ route('website.penggunaan.fitur.kpi.description') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur KPI Description</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.organization') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Organization</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.salary.compare') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Compare</a></li>
+                         <li><a href="{{ route('website.penggunaan.fitur.export.payroll.bank') }}"><i class="la la-file-export me-0 pe-1 fs-5"></i> Export Payroll Bank</a></li>
                     </ul>
                 </li>
 

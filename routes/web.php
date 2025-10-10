@@ -353,6 +353,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/salary-compare', function () {
         return view('website.fiturSalaryCompare');
     })->name('website.penggunaan.fitur.salary.compare');
+
+    Route::get('pengunaan/fitur/export-payroll', function () {
+        return view('website.fiturExportPayroll');
+    })->name('website.penggunaan.fitur.export.payroll.bank');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
