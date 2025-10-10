@@ -345,6 +345,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/dairy-allowance', function () {
         return view('website.fiturDairyAllowance');
     })->name('website.penggunaan.fitur.dairy.allowance');
+
+    Route::get('/pengunaan/fitur/organization', function () {
+        return view('website.fiturOrganization');
+    })->name('website.penggunaan.fitur.organization');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
