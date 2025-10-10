@@ -337,6 +337,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/overtime-exclusion', function () {
         return view('website.fiturOvertimeExclusion');
     })->name('website.penggunaan.fitur.overtime.exclusion');
+
+    Route::get('/pengunaan/fitur/kpi-description', function () {
+        return view('website.fiturKPIDescription');
+    })->name('website.penggunaan.fitur.kpi.description');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
