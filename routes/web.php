@@ -341,6 +341,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/kpi-description', function () {
         return view('website.fiturKPIDescription');
     })->name('website.penggunaan.fitur.kpi.description');
+
+    Route::get('/pengunaan/fitur/dairy-allowance', function () {
+        return view('website.fiturDairyAllowance');
+    })->name('website.penggunaan.fitur.dairy.allowance');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
