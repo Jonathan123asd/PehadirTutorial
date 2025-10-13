@@ -89,6 +89,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.schedule.type') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Schedule Type</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.asset') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Report Asset</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report PPH21</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.reminder.contract') }}"><i class="la la-bell me-0 pe-1 fs-5"></i> Report Reminder Contract</a></li>
                         </ul>
                     </li>
                     <!-- Ai -->
@@ -190,7 +191,8 @@
                          <li><a href="{{ route('website.penggunaan.fitur.export.payroll.bank') }}"><i class="la la-file-export me-0 pe-1 fs-5"></i> Export Payroll Bank</a></li>
                          <li><a href="{{ route('website.penggunaan.fitur.schedule.type') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Schedule Type</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.report.asset') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Cara Menggunakan Report Asset</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la l la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report PPH 21</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report PPH 21</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.report.reminder.contract') }}"><i class="la la-bell me-0 pe-1 fs-5"></i> Cara Menggunakan Report Reminder Contract</a></li>
 
 
                     </ul>
