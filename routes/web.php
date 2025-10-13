@@ -377,6 +377,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::Get('/pengunaan/fitur/report-turnover', function () {
         return view('website.fiturReportTurnover');
     })->name('website.penggunaan.fitur.report.turnover');
+
+    Route::get('/pengunaan/fitur/report-kpi', function () {
+        return view('website.fiturReportKPI');
+    })->name('website.penggunaan.fitur.report.kpi');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
