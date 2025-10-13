@@ -357,6 +357,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('pengunaan/fitur/export-payroll', function () {
         return view('website.fiturExportPayroll');
     })->name('website.penggunaan.fitur.export.payroll.bank');
+
+    Route::get('/pengunaan/fitur/report-asset', function () {
+        return view('website.fiturReportAsset');
+    })->name('website.penggunaan.fitur.report.asset');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
