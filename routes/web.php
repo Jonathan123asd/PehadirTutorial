@@ -373,6 +373,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/report-bpjs', function () {
         return view('website.fiturReportBpjs');
     })->name('website.penggunaan.fitur.report.bpjs');
+
+    Route::Get('/pengunaan/fitur/report-turnover', function () {
+        return view('website.fiturReportTurnover');
+    })->name('website.penggunaan.fitur.report.turnover');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
