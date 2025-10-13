@@ -369,6 +369,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/report-reminder-contract', function () {
         return view('website.fiturReportReminderContract');
     })->name('website.penggunaan.fitur.report.reminder.contract');
+
+    Route::get('/pengunaan/fitur/report-bpjs', function () {
+        return view('website.fiturReportBpjs');
+    })->name('website.penggunaan.fitur.report.bpjs');
 });
 
 Route::group(['prefix' => 'ai'] , function () {

@@ -90,6 +90,7 @@
                             <li><a href="{{ route('website.penggunaan.fitur.report.asset') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Report Asset</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report PPH21</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.reminder.contract') }}"><i class="la la-bell me-0 pe-1 fs-5"></i> Report Reminder Contract</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.bpjs') }}"><i class="la la-file-medical-alt me-0 pe-1 fs-5"></i> Report BPJS</a></li>
                         </ul>
                     </li>
                     <!-- Ai -->
@@ -193,6 +194,7 @@
                           <li><a href="{{ route('website.penggunaan.fitur.report.asset') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Cara Menggunakan Report Asset</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report PPH 21</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.report.reminder.contract') }}"><i class="la la-bell me-0 pe-1 fs-5"></i> Cara Menggunakan Report Reminder Contract</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.report.bpjs') }}"><i class="la  la-file-medical-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Report BPJS</a></li>
 
 
                     </ul>
