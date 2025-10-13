@@ -361,6 +361,10 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/report-asset', function () {
         return view('website.fiturReportAsset');
     })->name('website.penggunaan.fitur.report.asset');
+
+    Route::get('/pengunaan/fitur/report-pph21', function () {
+        return view('website.fiturReportPph21');
+    })->name('website.penggunaan.fitur.report.pph21');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
