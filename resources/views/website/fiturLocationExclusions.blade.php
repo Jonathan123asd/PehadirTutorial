@@ -77,6 +77,15 @@
                     <li><b>Employee:</b> Pilih pegawai yang akan dikenai pengecualian (hanya satu karyawan per form).</li>
                     <li><b>Reason:</b> Alasan pengecualian.</li>
                     <li><b>Start and End Date:</b> Tanggal mulai dan berakhirnya pengecualian.</li>
+                    <li><b>Pilih Exclusion Type :</b> </li>
+                    <li>
+
+                        Clock In → di gunakan untuk karyawan yang bekerja di luar kantor atau lokasi tertentu.
+                    </li>
+                    <li>
+
+                        Clock Out → di gunakan untuk jika jam pulang di lakukan dari lokasi yang berbeda.
+                    </li>
                     <li><b>Active:</b> Pilih status aktif atau tidak.</li>
                 </ul>
                 <p>Klik tombol <b>Add Exclusion</b> untuk menyimpan data.</p>
