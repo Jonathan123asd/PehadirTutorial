@@ -381,11 +381,14 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/report-kpi', function () {
         return view('website.fiturReportKPI');
     })->name('website.penggunaan.fitur.report.kpi');
-    
 
     Route::get('/pengunaan/fitur/report-cash-advance', function () {
         return view('website.fiturReportCashAdvance');
-    })->name('website.penggunaan.fitur.rekport.cash.advance');
+    })->name('website.penggunaan.fitur.report.cash.advance');
+
+    Route::get('/pengunaan/fitur/my-profile', function () {
+        return view('website.fiturMyProfile');
+    })->name('website.penggunaan.fitur.my.profile');
 });
 
 Route::group(['prefix' => 'ai'] , function () {

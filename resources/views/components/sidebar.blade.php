@@ -93,7 +93,8 @@
                             <li><a href="{{ route('website.penggunaan.fitur.report.bpjs') }}"><i class="la la-file-medical-alt me-0 pe-1 fs-5"></i> Report BPJS</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.turnover') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report Turnover</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.kpi') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report Kpi</a></li>
-                            <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report Cash Advance</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report Cash Advance</a></li>\
+                            <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> My Profile</a></li>
 
 
                         </ul>
@@ -202,6 +203,9 @@
                           <li><a href="{{ route('website.penggunaan.fitur.report.bpjs') }}"><i class="la  la-file-medical-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Report BPJS</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.report.turnover') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report TurnOver</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Cash Advance</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.report.kpi') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Kpi</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan My Profile</a></li>
+
                     </ul>
                 </li>
 
