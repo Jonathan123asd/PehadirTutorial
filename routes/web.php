@@ -381,6 +381,11 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/report-kpi', function () {
         return view('website.fiturReportKPI');
     })->name('website.penggunaan.fitur.report.kpi');
+    
+
+    Route::get('/pengunaan/fitur/report-cash-advance', function () {
+        return view('website.fiturReportCashAdvance');
+    })->name('website.penggunaan.fitur.rekport.cash.advance');
 });
 
 Route::group(['prefix' => 'ai'] , function () {
