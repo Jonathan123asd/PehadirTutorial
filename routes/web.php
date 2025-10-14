@@ -389,6 +389,7 @@ Route::group(['prefix' => 'website'], function () {
     Route::get('/pengunaan/fitur/my-profile', function () {
         return view('website.fiturMyProfile');
     })->name('website.penggunaan.fitur.my.profile');
+
 });
 
 Route::group(['prefix' => 'ai'] , function () {
