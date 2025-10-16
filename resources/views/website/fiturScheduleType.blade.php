@@ -114,7 +114,8 @@
                 <li><i class="bi bi-dot"></i> Untuk shift lain, ulangi langkah sama, sesuaikan Clock-in Start & End</li>
             </ul>
             <img class="img-custom-dekstop w-100" src="{{ asset('assets/img/website/fiturScheduleType/11.png') }}" alt="Review Shift Mapping">
-        </div> --}}
+        </div>
+
 
         {{--step 12--}}
         <div class="col-12">
@@ -230,10 +231,6 @@
                 <img class="img-custom-dekstop w-100" src="{{ asset('assets/img/website/fiturScheduleType/25.png') }}" alt="Remove Employees">
             </ul>
         </div>
-
-
-
-
     </div>
 </section>
 @endsection

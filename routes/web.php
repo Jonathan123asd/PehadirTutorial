@@ -390,6 +390,14 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturMyProfile');
     })->name('website.penggunaan.fitur.my.profile');
 
+    Route::get('/pengunaan/fitur/take-foto', function () {
+        return view('website.fiturTakeFoto');
+    })->name('website.penggunaan.fitur.take.foto');
+
+    Route::get('/pengunaan/fitur/reset-password', function () {
+        return view('website.fiturResetPassword');
+    })->name('website.penggunaan.fitur.reset.password');
+
 });
 
 Route::group(['prefix' => 'ai'] , function () {

@@ -95,6 +95,8 @@
                             <li><a href="{{ route('website.penggunaan.fitur.report.kpi') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report Kpi</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Report Cash Advance</a></li>\
                             <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> My Profile</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.take.foto') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Fitur Take Foto</a></li>
+                            <li><a href="{{ route('website.penggunaan.fitur.reset.password') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Fitur Reset Password</a></li>
 
 
                         </ul>
@@ -205,6 +207,10 @@
                           <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Cash Advance</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.report.kpi') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Kpi</a></li>
                           <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan My Profile</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.take.foto') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Take Foto</a></li>
+                          <li><a href="{{ route('website.penggunaan.fitur.reset.password') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reset Password</a></li>
+
+
 
                     </ul>
                 </li>
