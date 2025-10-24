@@ -306,118 +306,118 @@ Route::group(['prefix' => 'website'], function () {
         return view('website.fiturMenggunakanUsers');
     })->name('website.penggunaan.fitur.menggunakan.users');
 
-    Route::get('/pengunaan/fitur/menu-roles', function () {
+    Route::get('/penggunaan/fitur/menu-roles', function () {
         return view('website.fiturMenuRoles');
     })->name('website.penggunaan.fitur.menu.roles');
 
-    Route::get('/pengunaan/fitur/report-loan', function () {
+    Route::get('/penggunaan/fitur/report-loan', function () {
         return view('website.fiturReportLoan');
     })->name('website.penggunaan.fitur.report.loan');
 
-    Route::get('/pengunaan/fitur/auto-clock-out', function () {
+    Route::get('/penggunaan/fitur/auto-clock-out', function () {
         return view('website.fiturAutoClockOut');
     })->name('website.penggunaan.fitur.auto.clock.out');
 
-    Route::get('/pengunaan/fitur/reimbursement', function () {
+    Route::get('/penggunaan/fitur/reimbursement', function () {
         return view('website.fiturReimbursement');
     })->name('website.penggunaan.fitur.reimbursement');
 
-    Route::get('/pengunaan/fitur/rekap-attendance', function () {
+    Route::get('/penggunaan/fitur/rekap-attendance', function () {
         return view('website.fiturRekapAttendance');
     })->name('website.penggunaan.fitur.rekap.attendance');
 
-    Route::get('/pengunaan/fitur/report-attendance', function () {
+    Route::get('/penggunaan/fitur/report-attendance', function () {
         return view('website.fiturReportAttendance');
     })->name('website.penggunaan.fitur.report.attendance');
 
-    Route::get('/pengunaan/fitur/schedule-type', function () {
+    Route::get('/penggunaan/fitur/schedule-type', function () {
         return view('website.fiturScheduleType');
     })->name('website.penggunaan.fitur.schedule.type');
 
-    Route::get('/pengunaan/fitur/overtime-exclusion', function () {
+    Route::get('/penggunaan/fitur/overtime-exclusion', function () {
         return view('website.fiturOvertimeExclusion');
     })->name('website.penggunaan.fitur.overtime.exclusion');
 
-    Route::get('/pengunaan/fitur/kpi-description', function () {
+    Route::get('/penggunaan/fitur/kpi-description', function () {
         return view('website.fiturKPIDescription');
     })->name('website.penggunaan.fitur.kpi.description');
 
-    Route::get('/pengunaan/fitur/dairy-allowance', function () {
+    Route::get('/penggunaan/fitur/dairy-allowance', function () {
         return view('website.fiturDairyAllowance');
     })->name('website.penggunaan.fitur.dairy.allowance');
 
-    Route::get('/pengunaan/fitur/organization', function () {
+    Route::get('/penggunaan/fitur/organization', function () {
         return view('website.fiturOrganization');
     })->name('website.penggunaan.fitur.organization');
 
-    Route::get('/pengunaan/fitur/salary-compare', function () {
+    Route::get('/penggunaan/fitur/salary-compare', function () {
         return view('website.fiturSalaryCompare');
     })->name('website.penggunaan.fitur.salary.compare');
 
-    Route::get('pengunaan/fitur/export-payroll', function () {
+    Route::get('penggunaan/fitur/export-payroll', function () {
         return view('website.fiturExportPayroll');
     })->name('website.penggunaan.fitur.export.payroll.bank');
 
-    Route::get('/pengunaan/fitur/report-asset', function () {
+    Route::get('/penggunaan/fitur/report-asset', function () {
         return view('website.fiturReportAsset');
     })->name('website.penggunaan.fitur.report.asset');
 
-    Route::get('/pengunaan/fitur/report-pph21', function () {
+    Route::get('/penggunaan/fitur/report-pph21', function () {
         return view('website.fiturReportPph21');
     })->name('website.penggunaan.fitur.report.pph21');
 
-    Route::get('/pengunaan/fitur/report-reminder-contract', function () {
+    Route::get('/penggunaan/fitur/report-reminder-contract', function () {
         return view('website.fiturReportReminderContract');
     })->name('website.penggunaan.fitur.report.reminder.contract');
 
-    Route::get('/pengunaan/fitur/report-bpjs', function () {
+    Route::get('/penggunaan/fitur/report-bpjs', function () {
         return view('website.fiturReportBpjs');
     })->name('website.penggunaan.fitur.report.bpjs');
 
-    Route::Get('/pengunaan/fitur/report-turnover', function () {
+    Route::Get('/penggunaan/fitur/report-turnover', function () {
         return view('website.fiturReportTurnover');
     })->name('website.penggunaan.fitur.report.turnover');
 
-    Route::get('/pengunaan/fitur/report-kpi', function () {
+    Route::get('/penggunaan/fitur/report-kpi', function () {
         return view('website.fiturReportKPI');
     })->name('website.penggunaan.fitur.report.kpi');
 
-    Route::get('/pengunaan/fitur/report-cash-advance', function () {
+    Route::get('/penggunaan/fitur/report-cash-advance', function () {
         return view('website.fiturReportCashAdvance');
     })->name('website.penggunaan.fitur.report.cash.advance');
 
-    Route::get('/pengunaan/fitur/my-profile', function () {
+    Route::get('/penggunaan/fitur/my-profile', function () {
         return view('website.fiturMyProfile');
     })->name('website.penggunaan.fitur.my.profile');
 
-    Route::get('/pengunaan/fitur/take-foto', function () {
+    Route::get('/penggunaan/fitur/take-foto', function () {
         return view('website.fiturTakeFoto');
     })->name('website.penggunaan.fitur.take.foto');
 
-    Route::get('/pengunaan/fitur/reset-password', function () {
+    Route::get('/penggunaan/fitur/reset-password', function () {
         return view('website.fiturResetPassword');
     })->name('website.penggunaan.fitur.reset.password');
 
 });
 
-Route::group(['prefix' => 'ai'] , function () {
-    Route::get('/pengunaan/fitur/absen-masuk', function () {
-        return view('ai.fiturAbsenMasuk');
-    })->name('ai.pengunaan.fitur.absen.masuk');
+Route::group(['prefix' => 'AI'] , function () {
+    Route::get('/penggunaan/fitur/absen-masuk', function () {
+        return view('AI.fiturAbsenMasuk');
+    })->name('AI.penggunaan.fitur.absen.masuk');
 
-    Route::get('/pengunaan/fitur/menu-absen-keluar', function () {
-        return view('ai.fiturMenuAbsenKeluar');
-    })->name('ai.pengunaan.fitur.menu.absen.keluar');
+    Route::get('/penggunaan/fitur/menu-absen-keluar', function () {
+        return view('AI.fiturMenuAbsenKeluar');
+    })->name('AI.penggunaan.fitur.menu.absen.keluar');
 
-    Route::get('/pengunaan/fitur/menu-logout', function () {
-        return view('ai.fiturMenuLogout');
-    })->name('ai.pengunaan.fitur.menu.logout');
+    Route::get('/penggunaan/fitur/menu-logout', function () {
+        return view('AI.fiturMenuLogout');
+    })->name('AI.penggunaan.fitur.menu.logout');
 
-    Route::get('/pengunaan/fitur/face-registration', function () {
-        return view('ai.fiturFaceRegistration');
-    })->name('ai.pengunaan.fitur.face.registration');
+    Route::get('/penggunaan/fitur/face-registration', function () {
+        return view('AI.fiturFaceRegistration');
+    })->name('AI.penggunaan.fitur.face.registration');
 
-    Route::get('/pengunaan/fitur/check-my-face', function () {
-        return view('ai.fiturCheckMyFace');
-    })->name('ai.pengunaan.fitur.check.my.face');
+    Route::get('/penggunaan/fitur/check-my-face', function () {
+        return view('AI.fiturCheckMyFace');
+    })->name('AI.penggunaan.fitur.check.my.face');
 });

@@ -97,19 +97,17 @@
                             <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> My Profile</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.take.foto') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Fitur Take Foto</a></li>
                             <li><a href="{{ route('website.penggunaan.fitur.reset.password') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Fitur Reset Password</a></li>
-
-
                         </ul>
                     </li>
                     <!-- Ai -->
                     <li class="submenu">
                         <a href="#"><i class="la la-robot me-0 pe-1 fs-5"></i> <span>Pehadir AI</span> <span class="menu-arrow"></span></a>
                         <ul style="displ`ay: none;">
-                            <li><a href="{{ route('ai.pengunaan.fitur.absen.masuk') }}"><i class="la la-sign-in-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Absen Masuk</a></li>
-                            <li><a href="{{ route('ai.pengunaan.fitur.check.my.face') }}"><i class="la la-user-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Check My Face</a></li>
-                            <li><a href="{{ route('ai.pengunaan.fitur.face.registration') }}"><i class="la la-id-card me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Face Registration</a></li>
-                            <li><a href="{{ route('ai.pengunaan.fitur.menu.absen.keluar') }}"><i class="la la-sign-out-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Absen Keluar</a></li>
-                            <li><a href="{{ route('ai.pengunaan.fitur.menu.logout') }}"><i class="la la-power-off me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Logout</a></li>
+                            <li><a href="{{ route('AI.penggunaan.fitur.absen.masuk') }}"><i class="la la-sign-in-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Absen Masuk</a></li>
+                            <li><a href="{{ route('AI.penggunaan.fitur.check.my.face') }}"><i class="la la-user-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Check My Face</a></li>
+                            <li><a href="{{ route('AI.penggunaan.fitur.face.registration') }}"><i class="la la-id-card me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Face Registration</a></li>
+                            <li><a href="{{ route('AI.penggunaan.fitur.menu.absen.keluar') }}"><i class="la la-sign-out-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Absen Keluar</a></li>
+                            <li><a href="{{ route('AI.penggunaan.fitur.menu.logout') }}"><i class="la la-power-off me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Logout</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -192,26 +190,23 @@
                         <li><a href="{{ route('website.penggunaan.fitur.reimbursement') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reimbursement</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.rekap.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Rekap Attendance</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.report.attendance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Attendance</a></li>
-                         <li><a href="{{ route('website.penggunaan.fitur.overtime.exclusion') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Exclusion</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.overtime.exclusion') }}"><i class="la la-stopwatch me-0 pe-1 fs-5"></i> Overtime Exclusion</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.dairy.allowance') }}"><i class="la la-utensils me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Dairy Allowance</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.kpi.description') }}"><i class="la la-calendar-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur KPI Description</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.organization') }}"><i class="la la-sitemap me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Organization</a></li>
                         <li><a href="{{ route('website.penggunaan.fitur.salary.compare') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Salary Compare</a></li>
-                         <li><a href="{{ route('website.penggunaan.fitur.export.payroll.bank') }}"><i class="la la-file-export me-0 pe-1 fs-5"></i> Export Payroll Bank</a></li>
-                         <li><a href="{{ route('website.penggunaan.fitur.schedule.type') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Schedule Type</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.asset') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Cara Menggunakan Report Asset</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report PPH 21</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.reminder.contract') }}"><i class="la la-bell me-0 pe-1 fs-5"></i> Cara Menggunakan Report Reminder Contract</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.bpjs') }}"><i class="la  la-file-medical-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Report BPJS</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.turnover') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report TurnOver</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Cash Advance</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.report.kpi') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Kpi</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan My Profile</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.take.foto') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Take Foto</a></li>
-                          <li><a href="{{ route('website.penggunaan.fitur.reset.password') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reset Password</a></li>
-
-
-
+                        <li><a href="{{ route('website.penggunaan.fitur.export.payroll.bank') }}"><i class="la la-file-export me-0 pe-1 fs-5"></i> Export Payroll Bank</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.schedule.type') }}"><i class="la la-calendar-alt me-0 pe-1 fs-5"></i> Schedule Type</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.asset') }}"><i class="la la-boxes me-0 pe-1 fs-5"></i> Cara Menggunakan Report Asset</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.pph21') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report PPH 21</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.reminder.contract') }}"><i class="la la-bell me-0 pe-1 fs-5"></i> Cara Menggunakan Report Reminder Contract</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.bpjs') }}"><i class="la  la-file-medical-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Report BPJS</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.turnover') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report TurnOver</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.cash.advance') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Cash Advance</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.report.kpi') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Report Kpi</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.my.profile') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan My Profile</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.take.foto') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Take Foto</a></li>
+                        <li><a href="{{ route('website.penggunaan.fitur.reset.password') }}"><i class="la la-file-invoice-dollar me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Reset Password</a></li>
                     </ul>
                 </li>
 
@@ -219,11 +214,11 @@
                 <li class="submenu">
                     <a href="#"><i class="la la-robot me-0 pe-1 fs-5"></i> <span>Pehadir AI</span> <span class="menu-arrow"></span></a>
                     <ul style="display: none;">
-                        <li><a href="{{ route('ai.pengunaan.fitur.absen.masuk') }}"><i class="la la-sign-in-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Absen Masuk</a></li>
-                        <li><a href="{{ route('ai.pengunaan.fitur.check.my.face') }}"><i class="la la-user-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Check My Face</a></li>
-                        <li><a href="{{ route('ai.pengunaan.fitur.face.registration') }}"><i class="la la-id-card me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Face Registration</a></li>
-                        <li><a href="{{ route('ai.pengunaan.fitur.menu.absen.keluar') }}"><i class="la la-sign-out-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Absen Keluar</a></li>
-                        <li><a href="{{ route('ai.pengunaan.fitur.menu.logout') }}"><i class="la la-power-off me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Logout</a></li>
+                        <li><a href="{{ route('AI.penggunaan.fitur.absen.masuk') }}"><i class="la la-sign-in-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Absen Masuk</a></li>
+                        <li><a href="{{ route('AI.penggunaan.fitur.check.my.face') }}"><i class="la la-user-check me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Check My Face</a></li>
+                        <li><a href="{{ route('AI.penggunaan.fitur.face.registration') }}"><i class="la la-id-card me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Face Registration</a></li>
+                        <li><a href="{{ route('AI.penggunaan.fitur.menu.absen.keluar') }}"><i class="la la-sign-out-alt me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Absen Keluar</a></li>
+                        <li><a href="{{ route('AI.penggunaan.fitur.menu.logout') }}"><i class="la la-power-off me-0 pe-1 fs-5"></i> Cara Menggunakan Fitur Menu Logout</a></li>
                     </ul>
                 </li>
             </ul>
